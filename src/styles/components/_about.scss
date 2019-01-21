@@ -1,0 +1,148 @@
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    position: relative;
+    grid-template-areas: 
+    "_left _right"
+}
+
+.about-text {
+    grid-area: _left;
+}
+
+.skills-box-container {
+    justify-self: center;
+    grid-area: _right;
+}
+
+@media (max-width: 800px) {
+  .about {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "_left"
+      "_right";
+      .skills-box-container {
+        justify-self: center;
+    }
+  }
+}
+
+.about-skills {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.7em;
+    text-align: center;
+    color: #6a44a7;
+}
+
+.skills-box {
+    display: flex;
+    align-items: center;
+    height: 3.5em;
+    width: 100%;
+}
+
+.skills-box-bar {
+    background-color: #dbdbdb;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    height: 14px;
+    width: 380px;
+}
+
+  @keyframes skill-50 {
+    from { 
+      background-color: #6a44a7;
+      width: 0px; 
+    }
+    to { width: 190px; }
+  }
+  
+  @keyframes skill-60 {
+    from { 
+      background-color: #6a44a7;
+      width: 0px; 
+    }
+    to { width: 227px; }
+  }
+
+  @keyframes skill-70 {
+    from { 
+     background-color: #6a44a7;
+     width: 0px; 
+   }
+   to { width: 265px; }
+ }
+
+  @keyframes skill-75 {
+     from { 
+      background-color: #6a44a7;
+      width: 0px; 
+    }
+    to { width: 285px; }
+  }
+
+  @keyframes skill-85 {
+    from { 
+     background-color: #6a44a7;
+     width: 0px; 
+   }
+   to { width: 322px; }
+ }
+  
+  @keyframes skill-100 {
+     from { 
+      background-color: #6a44a7;
+      width: 0px; 
+    }
+    to { width: 376px; }
+  }
+  
+
+  .skills-box-status-50 {
+    background-color: #389822;
+    margin: 2px;
+    height: 10px;
+    width: 190px;
+    animation: skill-50 3s;
+  }
+
+  .skills-box-status-60 {
+    background-color: #389822;
+    margin: 2px;
+    height: 10px;
+    width: 227px;
+    animation: skill-60 3s;
+  }
+
+  .skills-box-status-70 {
+    background-color: #389822;
+    margin: 2px;
+    height: 10px;
+    width: 265px;
+    animation: skill-70 3s;
+  }
+  
+  .skills-box-status-75 {
+    background-color: #389822;
+    margin: 2px;
+    height: 10px;
+    width: 285px;
+    animation: skill-75 3s;
+  }
+
+  .skills-box-status-85 {
+    background-color: #389822;
+    margin: 2px;
+    height: 10px;
+    width: 322px;
+    animation: skill-85 3s;
+  }
+  
+  .skills-box-status-100 {
+    background-color: #389822;
+    margin: 2px;
+    height: 10px;
+    width: 376px;
+    animation: skill-100 3s;
+  }

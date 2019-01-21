@@ -1,0 +1,27 @@
+.text {
+   margin: 0;
+   text-align: center;
+   font-family: 'Amatic SC', cursive;
+   font-size: 3em;
+   color: #6a44a7;
+&:hover {
+   margin: 0;
+   text-align: center;
+   font-family: 'Amatic SC', cursive;
+   font-size: 3em;
+   color: #44a75d;
+    }
+}
+
+.icons {
+   text-align: center;
+   font-family: 'Amatic SC', cursive;
+   font-size: 3em;
+   color: #6a44a7;
+}
+
+.links-icons {
+    margin-top: 0.5em;
+    padding-left: 50px;
+    padding-right: 50px;
+}
