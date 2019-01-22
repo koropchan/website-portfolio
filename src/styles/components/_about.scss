@@ -1,3 +1,30 @@
+body {
+  background-image: url('../man-backgr.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+ }
+
+ @media only screen and (max-width: 767px){ 
+   body {
+     background-image: url('../man-backgr-mobile.jpg');
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     height: 100%;
+   }
+   p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 30px;
+    margin-inline-end: 30px;
+   } 
+ }
+
 .about {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -7,23 +34,7 @@
     "_left _right"
 }
 
-.about-text {
-    grid-area: _left;
-}
-
-.skills-box-container {
-    justify-self: center;
-    grid-area: _right;
-}
-
-.skills {
-  font-family: 'Amatic SC', cursive;
-  font-size: 2.3em;
-  text-align: center;
-  color: #6a44a7;
-}
-
-@media (max-width: 800px) {
+@media (max-width: 767px) {
   .about {
     grid-template-columns: 1fr;
     grid-template-areas: 
@@ -33,6 +44,24 @@
         justify-self: center;
     }
   }
+}
+
+.about-text {
+    grid-area: _left;
+}
+
+.skills-box-container {
+    justify-self: center;
+    grid-area: _right;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.skills {
+  font-family: 'Amatic SC', cursive;
+  font-size: 2.3em;
+  text-align: center;
+  color: #6a44a7;
 }
 
 .about-skills {
@@ -106,50 +135,50 @@
   }
   
 
-  .skills-box-status-50 {
-    background-color: #389822;
-    margin: 2px;
-    height: 10px;
-    width: 190px;
-    animation: skill-50 3s;
-  }
+.skills-box-status-50 {
+  background-color: #389822;
+  margin: 2px;
+  height: 10px;
+  width: 190px;
+  animation: skill-50 3s;
+}
 
-  .skills-box-status-60 {
-    background-color: #389822;
-    margin: 2px;
-    height: 10px;
-    width: 227px;
-    animation: skill-60 3s;
-  }
+.skills-box-status-60 {
+  background-color: #389822;
+  margin: 2px;
+  height: 10px;
+  width: 227px;
+  animation: skill-60 3s;
+}
 
-  .skills-box-status-70 {
-    background-color: #389822;
-    margin: 2px;
-    height: 10px;
-    width: 265px;
-    animation: skill-70 3s;
-  }
-  
-  .skills-box-status-75 {
-    background-color: #389822;
-    margin: 2px;
-    height: 10px;
-    width: 285px;
-    animation: skill-75 3s;
-  }
+.skills-box-status-70 {
+  background-color: #389822;
+  margin: 2px;
+  height: 10px;
+  width: 265px;
+  animation: skill-70 3s;
+}
 
-  .skills-box-status-85 {
-    background-color: #389822;
-    margin: 2px;
-    height: 10px;
-    width: 322px;
-    animation: skill-85 3s;
-  }
-  
-  .skills-box-status-100 {
-    background-color: #389822;
-    margin: 2px;
-    height: 10px;
-    width: 376px;
-    animation: skill-100 3s;
-  }
+.skills-box-status-75 {
+  background-color: #389822;
+  margin: 2px;
+  height: 10px;
+  width: 285px;
+  animation: skill-75 3s;
+}
+
+.skills-box-status-85 {
+  background-color: #389822;
+  margin: 2px;
+  height: 10px;
+  width: 322px;
+  animation: skill-85 3s;
+}
+
+.skills-box-status-100 {
+  background-color: #389822;
+  margin: 2px;
+  height: 10px;
+  width: 376px;
+  animation: skill-100 3s;
+}
