@@ -28,7 +28,14 @@ body {
     margin-block-end: 1em;
     margin-inline-start: 30px;
     margin-inline-end: 30px;
-   } 
+   }
+ }
+
+ @media (max-width: 767px) {
+  img {
+    height:45px;
+    width: 50px;
+  } 
  }
 
 .header {
