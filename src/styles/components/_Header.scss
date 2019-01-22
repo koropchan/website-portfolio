@@ -4,26 +4,30 @@ $colors: (
     'black': #141414,
     'dark-purple': #6a44a7,
     );
-body
- {
+body {
   background-image: url('../man-backgr.jpg');
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: 100%;
  }
 
-.header
- {
+ @media only screen and (max-width: 767px){ 
+   body {
+     background-image: url('../man-backgr-mobile.jpg');
+   }
+
+ }
+
+.header {
     display: flex;
     align-items: center;
     margin: 0.5em;
     margin-bottom: 3em;
   }
 
-.logo
- {
+.logo {
    font-family: 'Amatic SC', cursive;
    font-size: 3em;
    flex: 1;
@@ -33,8 +37,7 @@ body
    margin-left: 0.3em;
   }
  
- .menu_list
- {
+ .menu_list {
     display: flex;
     justify-content: space-around;
     font-family: 'Exo 2';
@@ -42,8 +45,7 @@ body
     flex: 1;
  }
 
-  .not-active 
-  {
+  .not-active {
     text-decoration: none;
     color: #6a44a7;
   }
@@ -93,3 +95,7 @@ body
       transform: translate3d(-75%, 0%, 0);
     }
   }
+
+// @media screen and (max-width: 767px) {
+// /* start of medium tablet styles */
+// }
