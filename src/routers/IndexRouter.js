@@ -7,20 +7,6 @@ import Projects from '../components/Projects';
 import About from '../components/About';
 
 
-// const IndexRouter = () => (
-//   return (
-//    <div>
-//     <Header/>
-//     <Switch>
-//      <Route path = "/" component = {Home} exact = {true}/>
-//      <Route path = "/projects" component = {Projects}/>
-//      <Route path = "/about" component = {About}/>
-//      <Route component = {NotFound404} />
-//      </Switch>
-//    </div>)
-// );
-// export default IndexRouter;
-
 
 const IndexRouter = () => (
   <BrowserRouter>

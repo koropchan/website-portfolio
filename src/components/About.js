@@ -16,7 +16,7 @@ class About extends Component {
                   </p>
                   <p className="about-skills">As of my hobbies I enjoy to explore the world and also skiing.</p>
                 </div>
-                <div className="skills-box-container">
+                <div className="skills-box-container"><div><p className="skills">Skills</p></div>
                   <div className="skills-box">
                     <div className="skills-box-icon"><img src={require('../styles/html5-logo.png')} alt="icon" height="40" width="40"/></div>
                     <div className="skills-box-bar">
