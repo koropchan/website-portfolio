@@ -13,21 +13,14 @@ html {
   height: 100%;
  }
 
- @media only screen and (max-width: 767px){ 
+ @media (max-width: 767px){ 
   html {
     background-image: url('../man-backgr-mobile.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 100%
-  } 
-  p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 30px;
-  margin-inline-end: 30px;
+    height: 100%;
   }
  }
 

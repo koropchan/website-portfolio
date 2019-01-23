@@ -9,13 +9,14 @@
 
 @media (max-width: 767px) {
   .about {
-    grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px,));
     grid-template-areas: 
       "_left"
       "_right";
-      .skills-box-container {
-        justify-self: center;
-    }
+    //   .skills-box-container {
+    //     justify-self: center;
+    // }
   }
 }
 
@@ -42,6 +43,11 @@
     font-size: 1.7em;
     text-align: center;
     color: #6a44a7;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 30px;
+    margin-inline-end: 30px;
 }
 
 .skills-box {
@@ -56,7 +62,7 @@
     border: 1px solid #dbdbdb;
     border-radius: 5px;
     height: 14px;
-    width: 380px;
+    width: 340px;
 }
 
   @keyframes skill-50 {
@@ -64,7 +70,7 @@
       background-color: #6a44a7;
       width: 0px; 
     }
-    to { width: 190px; }
+    to { width: 190px; border-radius: 5px;}
   }
   
   @keyframes skill-60 {
@@ -72,7 +78,7 @@
       background-color: #6a44a7;
       width: 0px; 
     }
-    to { width: 227px; }
+    to { width: 227px; border-radius: 5px;}
   }
 
   @keyframes skill-70 {
@@ -80,7 +86,7 @@
      background-color: #6a44a7;
      width: 0px; 
    }
-   to { width: 265px; }
+   to { width: 265px; border-radius: 5px;}
  }
 
   @keyframes skill-75 {
@@ -88,7 +94,7 @@
       background-color: #6a44a7;
       width: 0px; 
     }
-    to { width: 285px; }
+    to { width: 285px; border-radius: 5px;}
   }
 
   @keyframes skill-85 {
@@ -96,7 +102,7 @@
      background-color: #6a44a7;
      width: 0px; 
    }
-   to { width: 322px; }
+   to { width: 322px; border-radius: 5px;}
  }
   
   @keyframes skill-100 {
@@ -104,7 +110,7 @@
       background-color: #6a44a7;
       width: 0px; 
     }
-    to { width: 376px; }
+    to { width: 340px; border-radius: 5px;}
   }
   
 
@@ -114,6 +120,7 @@
   height: 10px;
   width: 190px;
   animation: skill-50 3s;
+  border-radius: 5px;
 }
 
 .skills-box-status-60 {
@@ -122,6 +129,7 @@
   height: 10px;
   width: 227px;
   animation: skill-60 3s;
+  border-radius: 5px;
 }
 
 .skills-box-status-70 {
@@ -130,6 +138,7 @@
   height: 10px;
   width: 265px;
   animation: skill-70 3s;
+  border-radius: 5px;
 }
 
 .skills-box-status-75 {
@@ -138,6 +147,7 @@
   height: 10px;
   width: 285px;
   animation: skill-75 3s;
+  border-radius: 5px;
 }
 
 .skills-box-status-85 {
@@ -146,12 +156,14 @@
   height: 10px;
   width: 322px;
   animation: skill-85 3s;
+  border-radius: 5px;
 }
 
 .skills-box-status-100 {
   background-color: #389822;
   margin: 2px;
   height: 10px;
-  width: 376px;
+  width: 340px;
   animation: skill-100 3s;
+  border-radius: 5px;
 }
