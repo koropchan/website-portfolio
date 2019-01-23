@@ -18,21 +18,9 @@ class About extends Component {
                 </div>
                 <div className="skills-box-container"><div><p className="skills">Skills</p></div>
                   <div className="skills-box">
-                    <div className="skills-box-icon"><img src={require('../styles/html5-logo.png')} alt="icon" height="40" width="40"/></div>
-                    <div className="skills-box-bar">
-                      <div className="skills-box-status-100"></div>
-                    </div>
-                  </div>
-                  <div className="skills-box">
-                    <div className="skills-box-icon"><img src={require('../styles/css-logo.png')} alt="icon" height="40" width="40"/></div>
-                    <div className="skills-box-bar">
-                      <div className="skills-box-status-75"></div>
-                    </div>
-                  </div>
-                  <div className="skills-box">
                     <div className="skills-box-icon"><img src={require('../styles/javascript-logo.png')} alt="icon" height="40" width="40"/></div>
                     <div className="skills-box-bar">
-                      <div className="skills-box-status-85"></div>
+                      <div className="skills-box-status-100"></div>
                     </div>
                   </div>
                   <div className="skills-box">
@@ -44,11 +32,23 @@ class About extends Component {
                   <div className="skills-box">
                     <div className="skills-box-icon"><img src={require('../styles/nodejs-logo.png')} alt="icon" height="40" width="40"/></div>
                     <div className="skills-box-bar">
-                      <div className="skills-box-status-50"></div>
+                      <div className="skills-box-status-85"></div>
                     </div>
                   </div>
                   <div className="skills-box">
                     <div className="skills-box-icon"><img src={require('../styles/sql-logo.png')} alt="icon" height="40" width="40"/></div>
+                    <div className="skills-box-bar">
+                      <div className="skills-box-status-75"></div>
+                    </div>
+                  </div>
+                  <div className="skills-box">
+                    <div className="skills-box-icon"><img src={require('../styles/html5-logo.png')} alt="icon" height="40" width="40"/></div>
+                    <div className="skills-box-bar">
+                      <div className="skills-box-status-50"></div>
+                    </div>
+                  </div>
+                  <div className="skills-box">
+                    <div className="skills-box-icon"><img src={require('../styles/css-logo.png')} alt="icon" height="40" width="40"/></div>
                     <div className="skills-box-bar">
                       <div className="skills-box-status-70"></div>
                     </div>
