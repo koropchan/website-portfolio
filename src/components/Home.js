@@ -5,7 +5,7 @@ class Home extends Component {
       render() { 
           return ( 
             <div>
-                <p className="text">Hi, my name is Stan and I am a Web Developer</p>
+                <p className="text"></p>
                 <p className="text"></p>
                 <div className="icons">
                 <a href = "https://www.linkedin.com/in/stan-koropchan/" target="_blank" rel="noopener noreferrer"><img className="links-icons" src={require('../styles/linkedin-logo.png')} alt="icon" height="45" width="45"/></a>
