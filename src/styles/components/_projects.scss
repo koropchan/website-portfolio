@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.projects {
+    position: relative;
+    height: 308px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 70px;
+    border-radius: 15px;
+}
+
+#chat {
+    background-image: url('../chat.jpg');
+}
+
+.button {
+    position: absolute;
+    bottom: 7px;
+    width: 70px;
+    text-decoration: none;
+    color: #6a44a7 !important;
+    text-transform: uppercase;
+    background: transparent;
+    padding: 10px;
+    border-radius: 15px;
+    display: inline-block;
+    border: 1.5px solid #6a44a7;
+}
+
+.button:hover {
+    color: #6a44a7 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    box-shadow: 0px 5px 40px -10px #6a44a7;
+    -webkit-box-shadow: 0px 5px 40px -10px #6a44a7;
+    -moz-box-shadow: 0px 5px 40px -10px #6a44a7;
+    transition: all 0.3s ease 0s;
+    }
