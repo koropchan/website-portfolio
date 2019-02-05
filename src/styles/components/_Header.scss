@@ -68,12 +68,12 @@ html {
   } 
 }
 
-  .not-active {
+.not-active {
     text-decoration: none;
     color: #6a44a7;
-  }
+}
   
-  .is-active {	
+.is-active {	
     color: transparent;
     display: inline-block;
     overflow: hidden;
@@ -108,14 +108,14 @@ html {
         rgba( map_get($colors, 'purple'), 0.8) 85%
       );
     }
-  }
+}
 
-  @keyframes underline-gradient { 
+@keyframes underline-gradient { 
     0%{
       transform: translate3d(0%, 0%, 0);
     }
     100%{
       transform: translate3d(-75%, 0%, 0);
     }
-  }
+}
 

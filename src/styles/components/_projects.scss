@@ -18,12 +18,12 @@
     justify-content: space-evenly;
     align-items: flex-end;
     position: relative;
-    height: 337px;
-    width: 335px;
+    height: 360px;
+    width: 340px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 #chat {
@@ -32,19 +32,19 @@
 
 .links{
     position: relative;
-    bottom: 7px;
+    bottom: 10px;
     width: 80px;
     height: 20px;
+    box-shadow: 0px 10px 14px -7px #e4e4e4;
     text-decoration: none;
-    color: #6a44a7 !important;
+    background-color: #e4e4e4 !important;
     text-transform: uppercase;
-    background: transparent;
     padding: 10px;
     text-align: center;
     font-family: 'Exo 2';
     font-size: 1rem;
-    border-radius: 15px;
-    border: 1.5px solid #6a44a7;
+    border: 1.5px solid #e4e4e4;
+    border-radius: 10px;
 }
 
 .links:hover {
@@ -55,6 +55,38 @@
     box-shadow: 0px 5px 40px -10px #6a44a7;
     -webkit-box-shadow: 0px 5px 40px -10px #6a44a7;
     -moz-box-shadow: 0px 5px 40px -10px #6a44a7;
-    border-radius: 15px;
+    border-radius: 10px;
     transition: all 0.3s ease 0s;
     }
+
+.h1 {
+     text-align: center;
+     font-family: 'Exo 2';
+     font-size: 1.3rem;
+    color: #6a44a7;
+}
+
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+#project-container {
+   opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
