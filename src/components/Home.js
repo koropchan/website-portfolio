@@ -10,7 +10,6 @@ class Home extends Component {
             <div>
                 <div className="text-container">
                   <p className="text">I am a Web Developer and Front‑End Developer focused on crafting clean and user‑friendly experiences.</p>
-                  <p className="text"></p>
                 </div>
                 <div className="wrapper">
                   <div className="button"><Link to = "/projects" className="my-work-btn">View my work</Link></div>
