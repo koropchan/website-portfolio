@@ -7,6 +7,7 @@
     "bootstrap": "^4.2.1",
     "express": "^4.16.4",
     "google-maps-react": "^2.0.2",
+    "newrelic": "^5.3.0",
     "node-sass": "^4.11.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
