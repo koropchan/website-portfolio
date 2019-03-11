@@ -20,9 +20,6 @@ class Projects extends Component {
                     <a className="links" href="https://github.com/koropchan/realtime-charts" target="_blank" rel="noopener noreferrer" align="center">Github</a>
                   </div>
                 </div>
-
-                <div className="project-container"></div>
-                <div className="project-container"></div>
               </div>
            );
       }
