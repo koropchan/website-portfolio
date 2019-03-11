@@ -1,4 +1,4 @@
-.container {
+.projects-container {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -7,9 +7,18 @@
     height: 100%;
 }
 
+.project-container {
+    width: 340px;
+    height: 360px;
+}
+
 @media (max-width: 767px){
-    .container {
+    .projects-container {
         flex-direction: column;
+        justify-content: space-between;
+    }
+    .project-container {
+        margin-bottom: 25%;
     }
 }
 
@@ -28,6 +37,10 @@
 
 #chat {
     background-image: url('../chat.jpg');
+}
+
+#charts {
+    background-image: url('../charts-backgr.jpg');
 }
 
 .links{
@@ -60,9 +73,9 @@
     }
 
 .h1 {
-     text-align: center;
-     font-family: 'Exo 2';
-     font-size: 1.3rem;
+    text-align: center;
+    font-family: 'Exo 2';
+    font-size: 1.3rem;
     color: #6a44a7;
 }
 
@@ -71,7 +84,7 @@
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
-#project-container {
+#projects-container {
    opacity:0;  /* make things invisible upon start */
   -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
   -moz-animation:fadeIn ease-in 1;
